@@ -5,4 +5,4 @@ tags: [web]
 author: CS Tribequa
 ---
 
-Le nouveau site est hébergé sur github pages. Retrouvez la [Link to a page]({{ site.baseurl }}{% link faq.md %}) pour toutes vos questions.
+Le nouveau site est hébergé sur github pages. Retrouvez la [FAQ (foire aux questions)](/faq.md) pour toutes vos questions.

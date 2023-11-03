@@ -2,6 +2,7 @@
 layout: page
 title: Foire Aux Questions
 subtitle: Info Utiles pour les résidents
+permalink: /faq/
 ---
 
 

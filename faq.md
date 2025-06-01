@@ -63,12 +63,16 @@ La liste est destinée à ceux qui possèdent un bien dans la résidance: (copro
 * comptes rendu des conseils syndicaux
 * questions sur les charges, le syndic, l’AFUL, les travaux
 
+| Pour vous inscrire: copro-subscribe@tribequa.org
+
 ### Résidants (tous)
 
 La liste est destinée à ceux qui habitent effectivement la résidance L2/L4 : occupantsl2l4 at tribequa point org
 
 * coups de main entre voisins
 * questions de voisinage
+
+| Pour vous inscrire: occupantsl2l4-subscribe@tribequa.org
 
 
 ## Comment utiliser le groupe Whatsapp ?

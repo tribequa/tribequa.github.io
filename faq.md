@@ -53,11 +53,11 @@ Nous mettons en places plusieurs listes de diffusions pour les différentes part
 
 ### Contacter le conseil syndical
 
-Le conseil syndical peut être contacté par mail à (cs chez listes point tribequa point org)
+Le conseil syndical peut être contacté par mail à (cs at tribequa point org)
 
 ### Copropriétaires
 
-La liste est destinée à ceux qui possèdent un bien dans la résidance: <https://listes.tribequa.org/wws//subscribe/copro>
+La liste est destinée à ceux qui possèdent un bien dans la résidance: (copro at tribequa point org)
 
 * préparation de l’AG de copropriété
 * comptes rendu des conseils syndicaux
@@ -65,16 +65,13 @@ La liste est destinée à ceux qui possèdent un bien dans la résidance: <https
 
 ### Résidants (tous)
 
-La liste est destinée à ceux qui habitent effectivement la résidance : <https://listes.tribequa.org/wws//subscribe/residants>
+La liste est destinée à ceux qui habitent effectivement la résidance L2/L4 : occupantsl2l4 at tribequa point org
 
 * coups de main entre voisins
 * questions de voisinage
 
-### Listes par bâtiments
-
-* Résidants du bâtiment L2: <https://listes.tribequa.org/wws//subscribe/residantsl2>
-* Résidants du bâtiment L4: <https://listes.tribequa.org/wws//subscribe/residantsl4>
 
 ## Comment utiliser le groupe Whatsapp ?
 
 * Charte d'utilisation du groupe WhatsApp [PDF](assets/pdf/charte.pdf)
+* Pour rejoindre le groupe whatsapp, contacter un voisin, qui fera la demande pour vous ajouter au groupe.

@@ -5,6 +5,16 @@ subtitle: Infos utiles pour les résidents
 permalink: /faq/
 ---
 
+# Qui contacter pour obtenir de l'aide?
+
+<img width="1486" height="938" alt="image" src="https://github.com/user-attachments/assets/5a12a17d-07fe-4008-828c-20b46bfbe3e2" />
+
+- Chez vous (parties privatives): propriétaire/bailleur
+- Pas chez vous (parties communes/PK/fluides): Conseil syndical via whatsapp ou mail
+- Coup de main/demande d'aide/voisinage: groupe whatsapp
+- Un problème avec un voisin? : contacter le voisin en premier, puis passer par le conseil syndical par mail
+- En général seuls les copropriétaires contactent le syndic, sauf pour les suivis de problèmes des les parties communes.
+
 # Les Projets en cours
 Les projets en cours sont financés exclusivement par les propriétaires pour améliorer le cadre de vie de tous.
 - Installation des **caméras** de vidéosurveillance (2 par hall + 2 dans le local vélo) : fin 2025

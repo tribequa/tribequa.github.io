@@ -7,7 +7,8 @@ permalink: /faq/
 
 # Les Projets en cours
 
-
+* Installation des caméra de video surveillance (2 par hall + 2 dans le local vélo): fin 2025
+* Rénovation des halls et installation de protection anti-chocs: après l'installation des caméras
 
 
 ## Le ménage

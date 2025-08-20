@@ -7,6 +7,8 @@ permalink: /faq/
 
 # Les Projets en cours
 
+Les projets en cours sont financés exclusivement par les propriétaires pour améliorer le cadre de vie de tous.
+
 * Installation des caméra de video surveillance (2 par hall + 2 dans le local vélo): fin 2025
 * Rénovation des halls et installation de protection anti-chocs: après l'installation des caméras
 

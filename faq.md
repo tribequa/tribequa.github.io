@@ -4,6 +4,12 @@ title: Foire Aux Questions
 subtitle: Info Utiles pour les résidents
 permalink: /faq/
 ---
+
+# Les Projets en cours
+
+
+
+
 ## Le ménage
 
 * Hall/ascenseur: 2x par semaine
@@ -18,6 +24,8 @@ permalink: /faq/
 ## Les encombrants
 
 Les encombrants (meubles, cartons, effets divers) ne doivent pas être stockés dans les parties communes (couloir, locaux poussette, local poubelle) mais déposé sur le trotoir après avoir pris rendez-vous avec Allo-Mairie proximité au 05 56 10 33 33.
+
+Si les encombrants sont dans les parties communes L'entreprise de nettoyage procède à l'enlèvement d'encombrants à vos frais 90€/m3 (augmentation des charges).
 
 La déchetterie Carles Vernet est à votre disposition à promixité (300m), et vous reçoit les Weekends. Elle accepte les déchets suivants:
 * tout venant incinerable

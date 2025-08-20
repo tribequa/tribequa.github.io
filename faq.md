@@ -1,114 +1,111 @@
 ---
 layout: page
 title: Foire Aux Questions
-subtitle: Info Utiles pour les résidents
+subtitle: Infos utiles pour les résidents
 permalink: /faq/
 ---
 
 # Les Projets en cours
-
 Les projets en cours sont financés exclusivement par les propriétaires pour améliorer le cadre de vie de tous.
+- Installation des **caméras** de vidéosurveillance (2 par hall + 2 dans le local vélo) : fin 2025
+- Rénovation des halls et installation de protections anti-chocs : après l'installation des caméras
 
-* Installation des caméra de video surveillance (2 par hall + 2 dans le local vélo): fin 2025
-* Rénovation des halls et installation de protection anti-chocs: après l'installation des caméras
+---
 
+# Le ménage
+- **Hall/ascenseur** : 2 fois par semaine
+- **Aspiration des moquettes** : 1 fois par semaine
+- **Shampoouinage des moquettes** : 4 fois par an
 
-## Le ménage
+- **Local poubelle** :
+  - Sortie des bacs noirs : dimanche et jeudi soirs
+  - Rentrée des bacs noirs : lundi et vendredi matins
+  - Sortie des bacs verts : lundi soir
+  - Rentrée des bacs verts : mardi matin
+- **Local vélo** : nettoyé 4 fois par an
 
-* Hall/ascenseur: 2x par semaine
-* Aspiration Moquettes: 1x par semaine
-* shampooinage des moquettes: 4x par an
-  
-* Local poubelle: sortie des bacs noir dimanche et jeudi soirs, rentrée des bacs noir lundi et vendredi matin.
-* Local poubelle: sortie des bacs verts lundi soirs, rentrée des bacs verts mardi matin.
+---
 
-* Local Vélo : 4x par an
+# Les encombrants
+Les encombrants (meubles, cartons, effets divers) **ne doivent pas** être stockés dans les parties communes (couloirs, locaux poussettes, local poubelle). Ils doivent être déposés sur le trottoir **après avoir pris rendez-vous** avec Allo-Mairie Proximité au **05 56 10 33 33**.
 
-## Les encombrants
+Si les encombrants sont laissés dans les parties communes, l’entreprise de nettoyage procédera à leur enlèvement **à vos frais** (90 €/m³, ce qui augmentera les charges).
 
-Les encombrants (meubles, cartons, effets divers) ne doivent pas être stockés dans les parties communes (couloir, locaux poussette, local poubelle) mais déposé sur le trotoir après avoir pris rendez-vous avec Allo-Mairie proximité au 05 56 10 33 33.
+La déchetterie **Carles Vernet** est à votre disposition à proximité (300 m) et vous accueille **les week-ends**. Elle accepte les déchets suivants :
+- Tout-venant incinérable
+- Carton
+- Métaux
+- Déchets d’éléments d’ameublement
+- Déchets d’équipements électriques et électroniques
+- Écrans/téléviseurs
 
-Si les encombrants sont dans les parties communes L'entreprise de nettoyage procède à l'enlèvement d'encombrants à vos frais 90€/m3 (augmentation des charges).
+<img width="780" height="435" alt="Déchetterie Carles Vernet" src="https://github.com/user-attachments/assets/ab5c3f3e-6401-479b-b124-a8ebe8961e4a" />
 
-La déchetterie Carles Vernet est à votre disposition à promixité (300m), et vous reçoit les Weekends. Elle accepte les déchets suivants:
-* tout venant incinerable
-* carton
-* metaux
-* dechets delements dameublement
-* dechets dequipements electriques et electroniques
-* ecrans televiseurs
+---
 
-  <img width="780" height="435" alt="image" src="https://github.com/user-attachments/assets/ab5c3f3e-6401-479b-b124-a8ebe8961e4a" />
+# Les ascenseurs
+Ils tombent toujours en panne au mauvais moment. Pour signaler un problème, contactez **OTIS** au **0800 242 407**.
+- **L2** = SL9B1 → [Voir l’état et signaler un problème pour l’ascenseur L2](https://www.eotisline.fr/home?elevatorRef=SL9B1)
+- **L4** = SL9B2 → [Voir l’état et signaler un problème pour l’ascenseur L4](https://www.eotisline.fr/home?elevatorRef=SL9B2)
 
+---
 
-## Les ascenseurs
-
-Ils tombent toujours en panne au mauvais moment. Pour signaler un problème, contactez OTIS au 0800242407
-
-* L2 = SL9B1 [Voir l’état et signaler un problème pour l’ascenseur L2](https://www.eotisline.fr/home?elevatorRef=SL9B1)
-* L4 = SL9B2 [Voir l’état et signaler un problème pour l’ascenseur L4](https://www.eotisline.fr/home?elevatorRef=SL9B2)
-
-## Qu’ai-je le droit de faire/pas faire dans la résidence? Quel est le règlement de copropriété?
-
+# Qu’ai-je le droit de faire/pas faire dans la résidence ? Quel est le règlement de copropriété ?
 [Accédez au règlement de copropriété](/assets/pdf/RCP.pdf)
 
-## Comment installer Internet?
+---
 
-Comment souscrire un abonnement Internet à Tribequa: L’immeuble est fibré par Orange. Au 12/09/2023 seul Orange, Sosh et Bouygues Telecom proposent une offre fibre. Théoriquement, les autres opérateurs pourront proposer des offres fibre dans le futur. Tous les appartements disposent d’un boitier fibre, mais la référence de la ligne (FT-XXXX-XXXX) n’est pas connue avant la première installation qui nécessite l’intervention d’un technicien.
+# Comment installer Internet ?
+### Comment souscrire un abonnement Internet à Tribequa ?
+L’immeuble est **fibré par Orange**. Au **12/09/2023**, seuls **Orange, Sosh et Bouygues Telecom** proposaient une offre fibre. Théoriquement, d’autres opérateurs pourront proposer des offres fibre à l’avenir.
 
-1. rendez-vous sur le site d’Orange, Sosh ou Boouygues
-2. renseigner 32 ou 33 places d’armagnac 33800 Bordeaux
-3. Indiquez que vous n’avez pas de boitier fibre et demander un rendez-vous avec un technicien
-4. Vous allez recevoir votre livebox et prendre RDV avec un technicien. S’il vous contacte pour pourrez lui expliquer que la prise est déjà présente dans l’appartement et qu’il n’y aura que besoin de raccorder au local “Operateur FT” dont il doit avoir la clef (voir plan ci-joint)
-5. Lors du rendez-vous, demandez au technicien la référence de votre ligne (FT-XXXX-XXXX) afin de permettre une portabilité (changement d’opérateur) plus facile dans l’avenir. Notez la sur le boitier fibre dans votre appartement.
-6. La box se place dans l’armoire électrique, et peut fournir du Wifi à tout l’appartement ou être reliée par des câbles Ethernet RJ-45 aux différentes prises présentes dans les pièces.
-7. Il n’y a pas de règle connue pour la numérotation des prises dans le boitier électrique, il faut toutes les essayer pour savoir…
-8. Les débits sont au moins de 300 Mbps réel chez Sosh
+Tous les appartements disposent d’un boîtier fibre, mais la référence de la ligne (**FT-XXXX-XXXX**) n’est pas connue avant la première installation, qui nécessite l’intervention d’un technicien.
+
+#### Étapes pour installer Internet :
+1. Rendez-vous sur le site d’**Orange, Sosh ou Bouygues**.
+2. Renseignez l’adresse : **32 ou 33 places d’Armagnac, 33800 Bordeaux**.
+3. Indiquez que vous n’avez pas de boîtier fibre et demandez un rendez-vous avec un technicien.
+4. Vous recevrez votre Livebox et prendrez rendez-vous avec un technicien. Si ce dernier vous contacte, précisez-lui que la prise est déjà présente dans l’appartement et qu’il n’aura besoin que de raccorder au local **« Opérateur FT »**, dont il doit avoir la clé (voir plan ci-joint).
+5. Lors du rendez-vous, demandez au technicien la **référence de votre ligne (FT-XXXX-XXXX)** pour faciliter une éventuelle portabilité (changement d’opérateur) à l’avenir. Notez-la sur le boîtier fibre dans votre appartement.
+6. La box se place dans l’armoire électrique et peut fournir du Wi-Fi à tout l’appartement ou être reliée par des câbles Ethernet RJ-45 aux différentes prises présentes dans les pièces.
+7. Il n’y a pas de règle connue pour la numérotation des prises dans le boîtier électrique : il faut toutes les essayer pour savoir…
+8. Les débits sont d’au moins **300 Mbps** en réel chez Sosh.
 
 ![Localisation du local fibre](assets/img/fibre.png)
 
-## Quelles performances pour la connexion à internet?
+---
 
-L’immeuble est fribré par Orange et les performances suivantes peuvent être atteintes en utilisant la connexion internet en RJ-45 (prises ethernet) dans les appartements: 1Gbps symétrique.
+# Quelles performances pour la connexion Internet ?
+L’immeuble est **fibré par Orange** et les performances suivantes peuvent être atteintes en utilisant la connexion Internet en **RJ-45 (prises Ethernet)** dans les appartements : **1 Gbps symétrique**.
 
-## Comment fonctionnent les appareils livrés dans les appartements?
+---
 
-* [detecteur_fumée.pdf - 106.5 kB](assets/pdf/detecteur_fumée.pdf)
-* [module_thermique.pdf - 1.1 MB](assets/pdf/module_thermique.pdf)
-* [thermostats.pdf - 2.7 MB](assets/pdf/thermostats.pdf)
-* [visiophone.pdf - 3.0 MB](assets/pdf/visiophone.pdf)
-* [vmc.pdf - 243.8 kB](assets/pdf/vmc.pdf)
-* [volets_roulants.pdf - 6.2 MB](assets/pdf/volets_roulants.pdf)
+# Comment fonctionnent les appareils livrés dans les appartements ?
+- [Détecteur de fumée](assets/pdf/detecteur_fumée.pdf) (106.5 Ko)
+- [Module thermique](assets/pdf/module_thermique.pdf) (1.1 Mo)
+- [Thermostats](assets/pdf/thermostats.pdf) (2.7 Mo)
+- [Visiophone](assets/pdf/visiophone.pdf) (3.0 Mo)
+- [VMC](assets/pdf/vmc.pdf) (243.8 Ko)
+- [Volets roulants](assets/pdf/volets_roulants.pdf) (6.2 Mo)
 
-## Comment se tenir au courant des actualités par email?
+---
 
-Nous mettons en places plusieurs listes de diffusions pour les différentes parties-prenantes de la résidance.
+# Comment se tenir au courant des actualités par e-mail ?
+Nous mettons en place plusieurs listes de diffusion pour les différentes parties prenantes de la résidence.
 
 ### Contacter le conseil syndical
+Le conseil syndical peut être contacté par e-mail à : **cs@tribequa.org**
 
-Le conseil syndical peut être contacté par mail à (cs at tribequa point org)
+### Liste pour les copropriétaires
+Cette liste est destinée à ceux qui possèdent un bien dans la résidence : **copro@tribequa.org**
+- Préparation de l’AG de copropriété
+- Comptes-rendus des conseils syndicaux
+- Questions sur les charges, le syndic, l’AFUL, les travaux
 
-### Copropriétaires
+**Pour vous inscrire** : envoyez un e-mail à **copro-subscribe@tribequa.org**
 
-La liste est destinée à ceux qui possèdent un bien dans la résidance: (copro at tribequa point org)
+---
 
-* préparation de l’AG de copropriété
-* comptes rendu des conseils syndicaux
-* questions sur les charges, le syndic, l’AFUL, les travaux
-
-| Pour vous inscrire: copro-subscribe@tribequa.org
-
-### Résidants (tous)
-
-La liste est destinée à ceux qui habitent effectivement la résidance L2/L4 : occupantsl2l4 at tribequa point org
-
-* coups de main entre voisins
-* questions de voisinage
-
-| Pour vous inscrire: occupantsl2l4-subscribe@tribequa.org
-
-
-## Comment utiliser le groupe Whatsapp ?
-
-* Charte d'utilisation du groupe WhatsApp [PDF](assets/pdf/charte.pdf)
-* Pour rejoindre le groupe whatsapp, contacter un voisin, qui fera la demande pour vous ajouter au groupe.
+# Comment utiliser le groupe WhatsApp ?
+- [Charte d’utilisation du groupe WhatsApp](assets/pdf/charte.pdf)
+- Pour rejoindre le groupe WhatsApp, contactez un voisin, qui fera la demande pour vous ajouter au groupe.

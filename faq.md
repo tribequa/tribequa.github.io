@@ -4,7 +4,28 @@ title: Foire Aux Questions
 subtitle: Info Utiles pour les résidents
 permalink: /faq/
 ---
+## Le ménage
 
+* Hall/ascenseur: 2x par semaine
+* Aspiration Moquettes: 1x par semaine
+* shampooinage des moquettes: 4x par an
+  
+* Local poubelle: sortie des bacs noir dimanche et jeudi soirs, rentrée des bacs noir lundi et vendredi matin.
+* Local poubelle: sortie des bacs verts lundi soirs, rentrée des bacs verts mardi matin.
+
+* Local Vélo : 4x par an
+
+## Les encombrants
+
+Les encombrants (meubles, cartons, effets divers) ne doivent pas être stockés dans les parties communes (couloir, locaux poussette, local poubelle) mais déposé sur le trotoir après avoir pris rendez-vous avec Allo-Mairie proximité au 05 56 10 33 33.
+
+La déchetterie Carles Vernet est à votre disposition à promixité (300m), et vous reçoit les Weekends. Elle accepte les déchets suivants:
+* tout venant incinerable
+* carton
+* metaux
+* dechets delements dameublement
+* dechets dequipements electriques et electroniques
+* ecrans televiseurs
 
 ## Les ascenseurs
 
@@ -34,9 +55,7 @@ Comment souscrire un abonnement Internet à Tribequa: L’immeuble est fibré pa
 
 ## Quelles performances pour la connexion à internet?
 
-L’immeuble est fribré par Orange et les performances suivantes peuvent être atteintes en utilisant la connexion internet en RJ-45 (prises ethernet) dans les appartements:
-
-![Performances de la fibre](assets/img/fibre-perfs.png)
+L’immeuble est fribré par Orange et les performances suivantes peuvent être atteintes en utilisant la connexion internet en RJ-45 (prises ethernet) dans les appartements: 1Gbps symétrique.
 
 ## Comment fonctionnent les appareils livrés dans les appartements?
 

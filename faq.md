@@ -27,6 +27,9 @@ La déchetterie Carles Vernet est à votre disposition à promixité (300m), et 
 * dechets dequipements electriques et electroniques
 * ecrans televiseurs
 
+  <img width="780" height="435" alt="image" src="https://github.com/user-attachments/assets/ab5c3f3e-6401-479b-b124-a8ebe8961e4a" />
+
+
 ## Les ascenseurs
 
 Ils tombent toujours en panne au mauvais moment. Pour signaler un problème, contactez OTIS au 0800242407

@@ -100,6 +100,18 @@ L’immeuble est **fibré par Orange** et les performances suivantes peuvent êt
 
 ---
 
+## Comment changer les piles du thermostat?
+
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/EhtRjvTkHec"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
+
+
+
 # Comment se tenir au courant des actualités par e-mail ?
 Nous mettons en place plusieurs listes de diffusion pour les différentes parties prenantes de la résidence.
 

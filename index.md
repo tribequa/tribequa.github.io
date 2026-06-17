@@ -11,9 +11,9 @@ Retrouvez la <a href="/faq/">FAQ (foire aux questions)</a> pour toutes les répo
 
 {% include sensors-dashboard.html %}
 
-# Projets en cours
-Ces projets seront bientôt déployés dans la résidence, **financés** par les copropriétaires :
-- vidéosurveillance améliorée
+# Projets réalisés
+Ces projets, **financés** par les copropriétaires, ont été finalisés au printemps 2026 :
+- amélioration de la vidéosurveillance
 - rénovation des halls
 
 # Problèmes en cours
@@ -71,4 +71,3 @@ Dites-nous comment améliorer Tribequa L2/L4/PK en remplissant ce formulaire :
     </div>
   </div>
 </div>
-

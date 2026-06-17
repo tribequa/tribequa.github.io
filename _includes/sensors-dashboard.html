@@ -1,4 +1,8 @@
-<section class="sensors-dashboard" data-sensors-src="{{ '/assets/data/sensors.json' | relative_url }}">
+<section
+  class="sensors-dashboard"
+  data-sensors-src="{{ '/assets/data/sensors.json' | relative_url }}"
+  data-sensors-history-src="{{ '/assets/data/sensors-history.json' | relative_url }}"
+>
   <div class="sensors-dashboard__header">
     <div>
       <h2>Conditions actuelles</h2>
@@ -24,6 +28,37 @@
       <span class="sensor-tile__label">Humidité extérieure</span>
       <strong class="sensor-tile__value" data-sensor-value="outdoor_humidity">--</strong>
     </article>
+  </div>
+
+  <div class="sensors-history" data-sensors-history>
+    <div class="sensors-history__header">
+      <h3>Historique sur 7 jours</h3>
+      <p data-sensors-history-status>Chargement de l'historique...</p>
+    </div>
+
+    <div class="sensors-history__charts">
+      <article class="sensor-chart">
+        <div class="sensor-chart__header">
+          <h4>Température</h4>
+          <div class="sensor-chart__legend">
+            <span><i class="sensor-chart__swatch sensor-chart__swatch--indoor"></i>Intérieur</span>
+            <span><i class="sensor-chart__swatch sensor-chart__swatch--outdoor"></i>Extérieur</span>
+          </div>
+        </div>
+        <svg class="sensor-chart__plot" data-sensor-chart="temperature" role="img" aria-label="Historique des températures sur 7 jours"></svg>
+      </article>
+
+      <article class="sensor-chart">
+        <div class="sensor-chart__header">
+          <h4>Humidité</h4>
+          <div class="sensor-chart__legend">
+            <span><i class="sensor-chart__swatch sensor-chart__swatch--indoor"></i>Intérieur</span>
+            <span><i class="sensor-chart__swatch sensor-chart__swatch--outdoor"></i>Extérieur</span>
+          </div>
+        </div>
+        <svg class="sensor-chart__plot" data-sensor-chart="humidity" role="img" aria-label="Historique de l'humidité sur 7 jours"></svg>
+      </article>
+    </div>
   </div>
 
   <noscript>Activez JavaScript pour afficher les dernières mesures.</noscript>

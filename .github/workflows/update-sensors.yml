@@ -40,65 +40,94 @@ jobs:
           INPUT_INDOOR_HUMIDITY: ${{ inputs.indoor_humidity }}
           INPUT_OUTDOOR_HUMIDITY: ${{ inputs.outdoor_humidity }}
         run: |
-          number_or_null() {
-            if [ -n "$1" ]; then
-              printf '%s' "$1"
-            else
-              printf 'null'
-            fi
+          node <<'NODE'
+          const fs = require("fs");
+
+          const isDispatch = process.env.EVENT_NAME === "repository_dispatch";
+          const getValue = (dispatchName, inputName) => (
+            isDispatch ? process.env[dispatchName] : process.env[inputName]
+          );
+          const numberOrNull = (value) => {
+            if (value === undefined || value === null || value === "") {
+              return null;
+            }
+
+            const number = Number(value);
+            return Number.isFinite(number) ? number : null;
+          };
+
+          const updatedAt = (
+            isDispatch ? process.env.DISPATCH_UPDATED_AT : ""
+          ) || new Date().toISOString();
+          const sensors = {
+            indoor_temperature: {
+              value: numberOrNull(getValue("DISPATCH_INDOOR_TEMPERATURE", "INPUT_INDOOR_TEMPERATURE")),
+              unit: "°C"
+            },
+            outdoor_temperature: {
+              value: numberOrNull(getValue("DISPATCH_OUTDOOR_TEMPERATURE", "INPUT_OUTDOOR_TEMPERATURE")),
+              unit: "°C"
+            },
+            indoor_humidity: {
+              value: numberOrNull(getValue("DISPATCH_INDOOR_HUMIDITY", "INPUT_INDOOR_HUMIDITY")),
+              unit: "%"
+            },
+            outdoor_humidity: {
+              value: numberOrNull(getValue("DISPATCH_OUTDOOR_HUMIDITY", "INPUT_OUTDOOR_HUMIDITY")),
+              unit: "%"
+            }
+          };
+
+          fs.writeFileSync(
+            "assets/data/sensors.json",
+            JSON.stringify({ updated_at: updatedAt, sensors }, null, 2) + "\n"
+          );
+
+          const historyPath = "assets/data/sensors-history.json";
+          const updatedTime = Date.parse(updatedAt);
+          const cutoff = Number.isFinite(updatedTime)
+            ? updatedTime - 7 * 24 * 60 * 60 * 1000
+            : Date.now() - 7 * 24 * 60 * 60 * 1000;
+          let points = [];
+
+          if (fs.existsSync(historyPath)) {
+            try {
+              const history = JSON.parse(fs.readFileSync(historyPath, "utf8"));
+              points = Array.isArray(history.points) ? history.points : [];
+            } catch (error) {
+              points = [];
+            }
           }
 
-          if [ "$EVENT_NAME" = "repository_dispatch" ]; then
-            UPDATED_AT="${DISPATCH_UPDATED_AT:-$(date -Iseconds)}"
-            INDOOR_TEMPERATURE="$DISPATCH_INDOOR_TEMPERATURE"
-            OUTDOOR_TEMPERATURE="$DISPATCH_OUTDOOR_TEMPERATURE"
-            INDOOR_HUMIDITY="$DISPATCH_INDOOR_HUMIDITY"
-            OUTDOOR_HUMIDITY="$DISPATCH_OUTDOOR_HUMIDITY"
-          else
-            UPDATED_AT="$(date -Iseconds)"
-            INDOOR_TEMPERATURE="$INPUT_INDOOR_TEMPERATURE"
-            OUTDOOR_TEMPERATURE="$INPUT_OUTDOOR_TEMPERATURE"
-            INDOOR_HUMIDITY="$INPUT_INDOOR_HUMIDITY"
-            OUTDOOR_HUMIDITY="$INPUT_OUTDOOR_HUMIDITY"
-          fi
+          points = points
+            .filter((point) => {
+              const time = Date.parse(point.time);
+              return Number.isFinite(time) && time >= cutoff && point.time !== updatedAt;
+            })
+            .concat({
+              time: updatedAt,
+              indoor_temperature: sensors.indoor_temperature.value,
+              outdoor_temperature: sensors.outdoor_temperature.value,
+              indoor_humidity: sensors.indoor_humidity.value,
+              outdoor_humidity: sensors.outdoor_humidity.value
+            })
+            .sort((a, b) => Date.parse(a.time) - Date.parse(b.time));
 
-          jq -n \
-            --arg updated_at "$UPDATED_AT" \
-            --argjson indoor_temperature "$(number_or_null "$INDOOR_TEMPERATURE")" \
-            --argjson outdoor_temperature "$(number_or_null "$OUTDOOR_TEMPERATURE")" \
-            --argjson indoor_humidity "$(number_or_null "$INDOOR_HUMIDITY")" \
-            --argjson outdoor_humidity "$(number_or_null "$OUTDOOR_HUMIDITY")" \
-            '{
-              updated_at: $updated_at,
-              sensors: {
-                indoor_temperature: {
-                  value: $indoor_temperature,
-                  unit: "°C"
-                },
-                outdoor_temperature: {
-                  value: $outdoor_temperature,
-                  unit: "°C"
-                },
-                indoor_humidity: {
-                  value: $indoor_humidity,
-                  unit: "%"
-                },
-                outdoor_humidity: {
-                  value: $outdoor_humidity,
-                  unit: "%"
-                }
-              }
-            }' > assets/data/sensors.json
+          fs.writeFileSync(
+            historyPath,
+            JSON.stringify({ updated_at: updatedAt, points }, null, 2) + "\n"
+          );
+          NODE
 
       - name: Commit sensor payload
         run: |
-          if git diff --quiet -- assets/data/sensors.json; then
+          if git diff --quiet -- assets/data/sensors.json assets/data/sensors-history.json; then
             echo "No sensor data changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/data/sensors.json
+          git add assets/data/sensors.json assets/data/sensors-history.json
           git commit -m "Update sensor data"
           git push

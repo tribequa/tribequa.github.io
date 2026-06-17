@@ -1,0 +1,30 @@
+<section class="sensors-dashboard" data-sensors-src="{{ '/assets/data/sensors.json' | relative_url }}">
+  <div class="sensors-dashboard__header">
+    <div>
+      <h2>Conditions actuelles</h2>
+      <p>Température et humidité mesurées dans la résidence.</p>
+    </div>
+    <p class="sensors-dashboard__updated" data-sensors-updated>Chargement...</p>
+  </div>
+
+  <div class="sensors-dashboard__grid" aria-live="polite">
+    <article class="sensor-tile">
+      <span class="sensor-tile__label">Température intérieure</span>
+      <strong class="sensor-tile__value" data-sensor-value="indoor_temperature">--</strong>
+    </article>
+    <article class="sensor-tile">
+      <span class="sensor-tile__label">Température extérieure</span>
+      <strong class="sensor-tile__value" data-sensor-value="outdoor_temperature">--</strong>
+    </article>
+    <article class="sensor-tile">
+      <span class="sensor-tile__label">Humidité intérieure</span>
+      <strong class="sensor-tile__value" data-sensor-value="indoor_humidity">--</strong>
+    </article>
+    <article class="sensor-tile">
+      <span class="sensor-tile__label">Humidité extérieure</span>
+      <strong class="sensor-tile__value" data-sensor-value="outdoor_humidity">--</strong>
+    </article>
+  </div>
+
+  <noscript>Activez JavaScript pour afficher les dernières mesures.</noscript>
+</section>

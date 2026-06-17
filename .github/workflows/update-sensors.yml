@@ -1,0 +1,104 @@
+name: Update sensor data
+
+on:
+  repository_dispatch:
+    types: [update-sensors]
+  workflow_dispatch:
+    inputs:
+      indoor_temperature:
+        description: Indoor temperature
+        required: false
+      outdoor_temperature:
+        description: Outdoor temperature
+        required: false
+      indoor_humidity:
+        description: Indoor humidity
+        required: false
+      outdoor_humidity:
+        description: Outdoor humidity
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build sensor payload
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DISPATCH_UPDATED_AT: ${{ github.event.client_payload.updated_at }}
+          DISPATCH_INDOOR_TEMPERATURE: ${{ github.event.client_payload.indoor_temperature }}
+          DISPATCH_OUTDOOR_TEMPERATURE: ${{ github.event.client_payload.outdoor_temperature }}
+          DISPATCH_INDOOR_HUMIDITY: ${{ github.event.client_payload.indoor_humidity }}
+          DISPATCH_OUTDOOR_HUMIDITY: ${{ github.event.client_payload.outdoor_humidity }}
+          INPUT_INDOOR_TEMPERATURE: ${{ inputs.indoor_temperature }}
+          INPUT_OUTDOOR_TEMPERATURE: ${{ inputs.outdoor_temperature }}
+          INPUT_INDOOR_HUMIDITY: ${{ inputs.indoor_humidity }}
+          INPUT_OUTDOOR_HUMIDITY: ${{ inputs.outdoor_humidity }}
+        run: |
+          number_or_null() {
+            if [ -n "$1" ]; then
+              printf '%s' "$1"
+            else
+              printf 'null'
+            fi
+          }
+
+          if [ "$EVENT_NAME" = "repository_dispatch" ]; then
+            UPDATED_AT="${DISPATCH_UPDATED_AT:-$(date -Iseconds)}"
+            INDOOR_TEMPERATURE="$DISPATCH_INDOOR_TEMPERATURE"
+            OUTDOOR_TEMPERATURE="$DISPATCH_OUTDOOR_TEMPERATURE"
+            INDOOR_HUMIDITY="$DISPATCH_INDOOR_HUMIDITY"
+            OUTDOOR_HUMIDITY="$DISPATCH_OUTDOOR_HUMIDITY"
+          else
+            UPDATED_AT="$(date -Iseconds)"
+            INDOOR_TEMPERATURE="$INPUT_INDOOR_TEMPERATURE"
+            OUTDOOR_TEMPERATURE="$INPUT_OUTDOOR_TEMPERATURE"
+            INDOOR_HUMIDITY="$INPUT_INDOOR_HUMIDITY"
+            OUTDOOR_HUMIDITY="$INPUT_OUTDOOR_HUMIDITY"
+          fi
+
+          jq -n \
+            --arg updated_at "$UPDATED_AT" \
+            --argjson indoor_temperature "$(number_or_null "$INDOOR_TEMPERATURE")" \
+            --argjson outdoor_temperature "$(number_or_null "$OUTDOOR_TEMPERATURE")" \
+            --argjson indoor_humidity "$(number_or_null "$INDOOR_HUMIDITY")" \
+            --argjson outdoor_humidity "$(number_or_null "$OUTDOOR_HUMIDITY")" \
+            '{
+              updated_at: $updated_at,
+              sensors: {
+                indoor_temperature: {
+                  value: $indoor_temperature,
+                  unit: "°C"
+                },
+                outdoor_temperature: {
+                  value: $outdoor_temperature,
+                  unit: "°C"
+                },
+                indoor_humidity: {
+                  value: $indoor_humidity,
+                  unit: "%"
+                },
+                outdoor_humidity: {
+                  value: $outdoor_humidity,
+                  unit: "%"
+                }
+              }
+            }' > assets/data/sensors.json
+
+      - name: Commit sensor payload
+        run: |
+          if git diff --quiet -- assets/data/sensors.json; then
+            echo "No sensor data changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/sensors.json
+          git commit -m "Update sensor data"
+          git push

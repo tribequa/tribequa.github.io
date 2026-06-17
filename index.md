@@ -2,8 +2,14 @@
 layout: home
 title: Bordeaux Euratlantique Tribequa
 subtitle: Site de la copro L2/L4/PK
+css:
+  - /assets/css/sensors.css
+js:
+  - /assets/js/sensors.js
 ---
 Retrouvez la <a href="/faq/">FAQ (foire aux questions)</a> pour toutes les réponses !
+
+{% include sensors-dashboard.html %}
 
 # Projets en cours
 Ces projets seront bientôt déployés dans la résidence, **financés** par les copropriétaires :
@@ -65,5 +71,4 @@ Dites-nous comment améliorer Tribequa L2/L4/PK en remplissant ce formulaire :
     </div>
   </div>
 </div>
-
 

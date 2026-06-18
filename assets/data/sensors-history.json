@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T21:10:00.406749+02:00",
+  "updated_at": "2026-06-18T21:15:00.406781+02:00",
   "points": [
     {
       "time": "2026-06-17T12:00:00+02:00",
@@ -1809,6 +1809,13 @@
     },
     {
       "time": "2026-06-18T21:10:00.406749+02:00",
+      "indoor_temperature": 28,
+      "outdoor_temperature": 40.5,
+      "indoor_humidity": 59.3,
+      "outdoor_humidity": 33.5
+    },
+    {
+      "time": "2026-06-18T21:15:00.406781+02:00",
       "indoor_temperature": 28,
       "outdoor_temperature": 40.5,
       "indoor_humidity": 59.3,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T19:25:00.096676+02:00",
+  "updated_at": "2026-06-22T19:30:00.097464+02:00",
   "points": [
     {
       "time": "2026-06-17T12:00:00+02:00",
@@ -9414,6 +9414,13 @@
       "indoor_temperature": 28.8,
       "outdoor_temperature": 45.7,
       "indoor_humidity": 55.6,
+      "outdoor_humidity": 26.6
+    },
+    {
+      "time": "2026-06-22T19:30:00.097464+02:00",
+      "indoor_temperature": 29.1,
+      "outdoor_temperature": 45.8,
+      "indoor_humidity": 55.9,
       "outdoor_humidity": 26.6
     }
   ]

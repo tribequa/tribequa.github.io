@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T10:00:00.498803+02:00",
+  "updated_at": "2026-06-27T10:05:00.499008+02:00",
   "sensors": {
     "indoor_temperature": {
       "value": 29.8,
@@ -10,11 +10,11 @@
       "unit": "°C"
     },
     "indoor_humidity": {
-      "value": 58.7,
+      "value": 58.5,
       "unit": "%"
     },
     "outdoor_humidity": {
-      "value": 56.1,
+      "value": 56,
       "unit": "%"
     }
   }

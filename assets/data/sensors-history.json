@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T23:15:00.353615+02:00",
+  "updated_at": "2026-08-13T23:20:00.353446+02:00",
   "points": [
     {
       "time": "2026-08-06T23:45:00.174697+02:00",
@@ -13328,6 +13328,13 @@
       "outdoor_temperature": 31.5,
       "indoor_humidity": 49.9,
       "outdoor_humidity": 39
+    },
+    {
+      "time": "2026-08-13T23:20:00.353446+02:00",
+      "indoor_temperature": 30.3,
+      "outdoor_temperature": 31.2,
+      "indoor_humidity": 49.9,
+      "outdoor_humidity": 39.6
     }
   ]
 }

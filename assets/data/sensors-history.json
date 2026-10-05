@@ -1,104 +1,6 @@
 {
-  "updated_at": "2026-10-05T21:45:00.056861+02:00",
+  "updated_at": "2026-10-05T22:55:00.057026+02:00",
   "points": [
-    {
-      "time": "2026-09-28T21:45:00.412205+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.5,
-      "indoor_humidity": null,
-      "outdoor_humidity": 60.8
-    },
-    {
-      "time": "2026-09-28T21:50:00.411717+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.5,
-      "indoor_humidity": null,
-      "outdoor_humidity": 60.8
-    },
-    {
-      "time": "2026-09-28T21:55:00.410865+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.5,
-      "indoor_humidity": null,
-      "outdoor_humidity": 60.8
-    },
-    {
-      "time": "2026-09-28T22:00:00.410771+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.5,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.6
-    },
-    {
-      "time": "2026-09-28T22:05:00.411281+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.4,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.6
-    },
-    {
-      "time": "2026-09-28T22:10:00.411039+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.4,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.6
-    },
-    {
-      "time": "2026-09-28T22:15:00.411023+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.4,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.8
-    },
-    {
-      "time": "2026-09-28T22:20:00.412398+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.7,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.8
-    },
-    {
-      "time": "2026-09-28T22:25:00.411391+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.7,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.8
-    },
-    {
-      "time": "2026-09-28T22:30:00.411586+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 24.7,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.8
-    },
-    {
-      "time": "2026-09-28T22:35:00.411254+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 25,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.5
-    },
-    {
-      "time": "2026-09-28T22:40:00.412152+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 25,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.5
-    },
-    {
-      "time": "2026-09-28T22:45:00.411697+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 25,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.5
-    },
-    {
-      "time": "2026-09-28T22:50:00.411818+02:00",
-      "indoor_temperature": null,
-      "outdoor_temperature": 25.1,
-      "indoor_humidity": null,
-      "outdoor_humidity": 61.3
-    },
     {
       "time": "2026-09-28T22:55:00.413453+02:00",
       "indoor_temperature": null,
@@ -13181,6 +13083,13 @@
       "outdoor_temperature": 22.9,
       "indoor_humidity": 57,
       "outdoor_humidity": 63.1
+    },
+    {
+      "time": "2026-10-05T22:55:00.057026+02:00",
+      "indoor_temperature": 25.2,
+      "outdoor_temperature": 22.6,
+      "indoor_humidity": 57.3,
+      "outdoor_humidity": 64.4
     }
   ]
 }

@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-11-04T00:50:00.357599+01:00",
+  "updated_at": "2026-11-04T00:55:00.359229+01:00",
   "points": [
-    {
-      "time": "2026-10-28T00:50:00.448256+01:00",
-      "indoor_temperature": 21.5,
-      "outdoor_temperature": 14.3,
-      "indoor_humidity": 62.8,
-      "outdoor_humidity": 81.7
-    },
     {
       "time": "2026-10-28T00:55:00.448966+01:00",
       "indoor_temperature": 21.5,
@@ -13055,6 +13048,13 @@
       "outdoor_temperature": 10.4,
       "indoor_humidity": 47,
       "outdoor_humidity": 66.8
+    },
+    {
+      "time": "2026-11-04T00:55:00.359229+01:00",
+      "indoor_temperature": 20.5,
+      "outdoor_temperature": 10.4,
+      "indoor_humidity": 47,
+      "outdoor_humidity": 66.7
     }
   ]
 }

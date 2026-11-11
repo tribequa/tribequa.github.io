@@ -1,62 +1,6 @@
 {
-  "updated_at": "2026-11-11T21:15:00.409748+01:00",
+  "updated_at": "2026-11-11T21:55:00.409971+01:00",
   "points": [
-    {
-      "time": "2026-11-04T21:20:00.219240+01:00",
-      "indoor_temperature": 21.1,
-      "outdoor_temperature": 10,
-      "indoor_humidity": 46.2,
-      "outdoor_humidity": 69
-    },
-    {
-      "time": "2026-11-04T21:25:00.218586+01:00",
-      "indoor_temperature": 21.1,
-      "outdoor_temperature": 10.4,
-      "indoor_humidity": 46.2,
-      "outdoor_humidity": 68.8
-    },
-    {
-      "time": "2026-11-04T21:30:00.218863+01:00",
-      "indoor_temperature": 21.1,
-      "outdoor_temperature": 10.4,
-      "indoor_humidity": 46.2,
-      "outdoor_humidity": 68.8
-    },
-    {
-      "time": "2026-11-04T21:35:00.218253+01:00",
-      "indoor_temperature": 21,
-      "outdoor_temperature": 10.4,
-      "indoor_humidity": 46.2,
-      "outdoor_humidity": 68.8
-    },
-    {
-      "time": "2026-11-04T21:40:00.218492+01:00",
-      "indoor_temperature": 21,
-      "outdoor_temperature": 10.8,
-      "indoor_humidity": 46.2,
-      "outdoor_humidity": 68.4
-    },
-    {
-      "time": "2026-11-04T21:45:00.217913+01:00",
-      "indoor_temperature": 21,
-      "outdoor_temperature": 10.8,
-      "indoor_humidity": 46.4,
-      "outdoor_humidity": 68.4
-    },
-    {
-      "time": "2026-11-04T21:50:00.218497+01:00",
-      "indoor_temperature": 21,
-      "outdoor_temperature": 10.8,
-      "indoor_humidity": 46.4,
-      "outdoor_humidity": 68.4
-    },
-    {
-      "time": "2026-11-04T21:55:00.219257+01:00",
-      "indoor_temperature": 21,
-      "outdoor_temperature": 11,
-      "indoor_humidity": 46.4,
-      "outdoor_humidity": 68.2
-    },
     {
       "time": "2026-11-04T22:00:00.218739+01:00",
       "indoor_temperature": 21,
@@ -12936,6 +12880,13 @@
       "outdoor_temperature": 17.1,
       "indoor_humidity": 59.3,
       "outdoor_humidity": 74.6
+    },
+    {
+      "time": "2026-11-11T21:55:00.409971+01:00",
+      "indoor_temperature": 21.3,
+      "outdoor_temperature": 17.1,
+      "indoor_humidity": 59.9,
+      "outdoor_humidity": 76.1
     }
   ]
 }
